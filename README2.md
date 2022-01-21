@@ -2,7 +2,7 @@
 
 ## Comandos
 
-### clone: clona un repositorio en la dirección que se indica.
+### git clone: clona un repositorio en la dirección que se indica.
 
 PS C:\Users\corsi\OneDrive\Escritorio> git clone https://github.com/gitt-3-pat/hello-world
 Cloning into 'hello-world'...
@@ -14,5 +14,51 @@ Receiving objects: 100% (38/38), 58.97 KiB | 379.00 KiB/s, done.
 Resolving deltas: 100% (1/1), done.
 
 
-### status: permite ver el estado 
+### git status: permite ver el estado de las ramas y de los commits.
+
+PS C:\Users\corsi\OneDrive\Escritorio\ICAI\PAT\hello-world> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/test/java/com/mycompany/app/AppTest.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README2.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+### git add .: se indica a git que se va a actualizar el repositorio. 
+
+Este comando no devuelve nada
+
+
+### git commit: se prepara una actualización al repositorio. Se puede indicar un comentario sobre la actualización.
+
+PS C:\Users\corsi\OneDrive\Escritorio\ICAI\PAT\hello-world> git commit -m "README2 added"
+[main 03a1395] README2 added
+ 2 files changed, 19 insertions(+)
+ create mode 100644 README2.md
+
+
+ ### git push: se suben los cambios al repositorio GitHub.
+
+ PS C:\Users\corsi\OneDrive\Escritorio\ICAI\PAT\hello-world> git push
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (10/10), 968 bytes | 242.00 KiB/s, done.
+Total 10 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/NCSanto01/hello-world.git
+To https://github.com/NCSanto01/ProgramacionTelematica.git
+   48fe276..03a1395  main -> main
+
+
 
