@@ -1,6 +1,6 @@
-# Practica 1
+# PRACTICA 1
 
-## Comandos
+## COMANDOS
 
 ### git clone: clona un repositorio en la dirección que se indica.
 
@@ -72,6 +72,30 @@ PS C:\Users\corsi\OneDrive\Escritorio\ICAI\PAT\hello-world> git checkout main
 >>
 Switched to branch 'main'
 Your branch is up to date with 'origin/main'.
+
+
+
+
+## INSTALACIONES
+
+### Java 17:
+
+PS C:\Users\corsi\OneDrive\Escritorio\ICAI\PAT\hello-world> java -version
+java version "17.0.1" 2021-10-19 LTS
+Java(TM) SE Runtime Environment (build 17.0.1+12-LTS-39)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.1+12-LTS-39, mixed mode, sharing)
+
+
+### MAVEN:
+
+C:\Users\corsi>mvn --version
+Apache Maven 3.8.4 (9b656c72d54e5bacbed989b64718c159fe39b537)
+Maven home: C:\Users\corsi\OneDrive\Escritorio\ICAI\PAT\MAVEN\apache-maven-3.8.4
+Java version: 17.0.1, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-17.0.1
+Default locale: es_ES, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+
+
 
 
 
