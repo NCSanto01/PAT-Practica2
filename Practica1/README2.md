@@ -45,7 +45,7 @@ PS C:\Users\corsi\OneDrive\Escritorio\ICAI\PAT\hello-world> git commit -m "READM
  create mode 100644 README2.md
 
 
- ### git push: se suben los cambios al repositorio GitHub.
+ ### git push: se suben los cambios al repositorio GitHub. En este caso se usa para subir este mismo archivo.
 
  PS C:\Users\corsi\OneDrive\Escritorio\ICAI\PAT\hello-world> git push
 Enumerating objects: 18, done.
@@ -59,6 +59,21 @@ remote: This repository moved. Please use the new location:
 remote:   https://github.com/NCSanto01/hello-world.git
 To https://github.com/NCSanto01/ProgramacionTelematica.git
    48fe276..03a1395  main -> main
+
+
+### git checkout: sirve para cambiar de rama.
+
+PS C:\Users\corsi\OneDrive\Escritorio\ICAI\PAT\hello-world> git checkout -b feature/1
+>>
+Switched to a new branch 'feature/1'
+
+
+PS C:\Users\corsi\OneDrive\Escritorio\ICAI\PAT\hello-world> git checkout main
+>>
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+
 
 
 
