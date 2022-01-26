@@ -94,9 +94,11 @@ Maven home: C:\Users\corsi\OneDrive\Escritorio\ICAI\PAT\MAVEN\apache-maven-3.8.4
 Java version: 17.0.1, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-17.0.1
 Default locale: es_ES, platform encoding: Cp1252
 OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+  
 
+### Visual Studio Code:
 
-
+![Captura](https://user-images.githubusercontent.com/78079809/151212580-1215df98-c12f-4ceb-bc0e-ee47c50408cd.PNG)
 
 
 
